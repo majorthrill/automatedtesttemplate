@@ -36,23 +36,11 @@ import io.cucumber.datatable.DataTable;
 public class TestMapping {
 
 	private static Logger log = Logger.getLogger(TestMapping.class.getCanonicalName());
-//	String url = "https://the-internet.herokuapp.com/challenging_dom";
 
 	@Autowired
 	public AutomationContext context;
 	private WebDriver driver = null;
 
-//	@Given(value = "Store the value '(.*)'.")
-//	public void storeValue(String value) throws InterruptedException {
-//		context = new AutomationContext();
-//		System.out.println("Storing - " + value);
-//		context.setText(value);
-//	}
-//
-//	@Given(value = "Tell me the value I stored in the previous step.")
-//	public void goToThePage() throws InterruptedException {
-//		context.testMe();
-//	}
 
 	@Given(value = "launch a browser.")
 	public void launchBrowser() {
@@ -91,11 +79,8 @@ public class TestMapping {
 			for (WebElement we : elements) {
 				if (we.getAttribute("class")
 						.equalsIgnoreCase(PageObject.findObjectByName(identifierText).getClassName())) {
-					System.out.println(
-							"Looking for " + identifierText + "    " + we.getAttribute("class") + " - found it");
+					log.info("Looking for " + identifierText + "    " + we.getAttribute("class") + " - found it");
 					element = we;
-					System.out.println(we.getAttribute("class"));
-					System.out.println("breaking loop.");
 					break;
 				}
 			}
@@ -113,8 +98,6 @@ public class TestMapping {
 			System.out.println("Only one element found with that identifier. Using this one.");
 			element = elements.get(0);
 		}
-
-//		System.out.println(element.getAttribute("class"));
 
 		if (!element.isDisplayed()) {
 			errors = errors + "\nElement named " + identifierText + " was found but is not displayed.";
