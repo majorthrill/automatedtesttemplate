@@ -1,0 +1,770 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1839800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationContext.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify existence of all expected elements.",
+        "description": "",
+        "id": "sample-tests.;verify-existence-of-all-expected-elements.",
+        "after": [
+          {
+            "result": {
+              "duration": 38100500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationContext.checkErrors()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2059002600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch a browser.",
+            "match": {
+              "location": "TestMapping.launchBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2697882600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "navigate to the address: \u0027https://the-internet.herokuapp.com/challenging_dom\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://the-internet.herokuapp.com/challenging_dom",
+                  "offset": 26
+                }
+              ],
+              "location": "TestMapping.goToUrl(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 89027400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify that the \u0027Blue Button\u0027 is visible and is active.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blue Button",
+                  "offset": 17
+                }
+              ],
+              "location": "TestMapping.verifyElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36697700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify that the \u0027Red Button\u0027 is visible and is active.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Red Button",
+                  "offset": 17
+                }
+              ],
+              "location": "TestMapping.verifyElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37902300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify that the \u0027Green Button\u0027 is visible and is active.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Green Button",
+                  "offset": 17
+                }
+              ],
+              "location": "TestMapping.verifyElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33468200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify that the \u0027Canvas\u0027 is visible and is active.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Canvas",
+                  "offset": 17
+                }
+              ],
+              "location": "TestMapping.verifyElement(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TechExercise"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 571100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationContext.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify button functionality.",
+        "description": "",
+        "id": "sample-tests.;verify-button-functionality.",
+        "after": [
+          {
+            "result": {
+              "duration": 56268200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationContext.checkErrors()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1223641000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "launch a browser.",
+            "match": {
+              "location": "TestMapping.launchBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2618367200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "navigate to the address: \u0027https://the-internet.herokuapp.com/challenging_dom\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://the-internet.herokuapp.com/challenging_dom",
+                  "offset": 26
+                }
+              ],
+              "location": "TestMapping.goToUrl(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20881300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify that the \u0027Blue Button\u0027 contains one of the expected values.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blue Button",
+                  "offset": 17
+                }
+              ],
+              "location": "TestMapping.checkElementText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17600500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify that the \u0027Red Button\u0027 contains one of the expected values.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Red Button",
+                  "offset": 17
+                }
+              ],
+              "location": "TestMapping.checkElementText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17583400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify that the \u0027Green Button\u0027 contains one of the expected values.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Green Button",
+                  "offset": 17
+                }
+              ],
+              "location": "TestMapping.checkElementText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258063500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on the \u0027Blue Button\u0027.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blue Button",
+                  "offset": 14
+                }
+              ],
+              "location": "TestMapping.clickElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15654400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "verify that the \u0027Blue Button\u0027 contains one of the expected values.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blue Button",
+                  "offset": 17
+                }
+              ],
+              "location": "TestMapping.checkElementText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15190700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "verify that the \u0027Red Button\u0027 contains one of the expected values.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Red Button",
+                  "offset": 17
+                }
+              ],
+              "location": "TestMapping.checkElementText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15365200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "verify that the \u0027Green Button\u0027 contains one of the expected values.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Green Button",
+                  "offset": 17
+                }
+              ],
+              "location": "TestMapping.checkElementText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247880100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click on the \u0027Green Button\u0027.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Green Button",
+                  "offset": 14
+                }
+              ],
+              "location": "TestMapping.clickElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32258400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "verify that the \u0027Blue Button\u0027 contains one of the expected values.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blue Button",
+                  "offset": 17
+                }
+              ],
+              "location": "TestMapping.checkElementText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19384500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "verify that the \u0027Red Button\u0027 contains one of the expected values.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Red Button",
+                  "offset": 17
+                }
+              ],
+              "location": "TestMapping.checkElementText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19815500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "verify that the \u0027Green Button\u0027 contains one of the expected values.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Green Button",
+                  "offset": 17
+                }
+              ],
+              "location": "TestMapping.checkElementText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241053600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click on the \u0027Red Button\u0027.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Red Button",
+                  "offset": 14
+                }
+              ],
+              "location": "TestMapping.clickElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15855100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "verify that the \u0027Blue Button\u0027 contains one of the expected values.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blue Button",
+                  "offset": 17
+                }
+              ],
+              "location": "TestMapping.checkElementText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14443000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "verify that the \u0027Red Button\u0027 contains one of the expected values.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Red Button",
+                  "offset": 17
+                }
+              ],
+              "location": "TestMapping.checkElementText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14090500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verify that the \u0027Green Button\u0027 contains one of the expected values.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Green Button",
+                  "offset": 17
+                }
+              ],
+              "location": "TestMapping.checkElementText(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TechExercise"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 570900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationContext.setUp()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Verify table contents.",
+        "description": "",
+        "id": "sample-tests.;verify-table-contents.",
+        "after": [
+          {
+            "result": {
+              "duration": 36894200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationContext.checkErrors()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1183032400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "launch a browser.",
+            "match": {
+              "location": "TestMapping.launchBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1773265200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "navigate to the address: \u0027https://the-internet.herokuapp.com/challenging_dom\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://the-internet.herokuapp.com/challenging_dom",
+                  "offset": 26
+                }
+              ],
+              "location": "TestMapping.goToUrl(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2941824300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "verify the table contents:",
+            "match": {
+              "location": "TestMapping.checkTableContents(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Lorem",
+                  "Ipsum",
+                  "Dolor",
+                  "Sit",
+                  "Amet",
+                  "Diceret",
+                  "Action"
+                ]
+              },
+              {
+                "cells": [
+                  "Iuvaret0",
+                  "Apeirian0",
+                  "Adipisci0",
+                  "Definiebas0",
+                  "Consequuntur0",
+                  "Phaedrum0",
+                  "edit delete"
+                ]
+              },
+              {
+                "cells": [
+                  "Iuvaret1",
+                  "Apeirian1",
+                  "Adipisci1",
+                  "Definiebas1",
+                  "Consequuntur1",
+                  "Phaedrum1",
+                  "edit delete"
+                ]
+              },
+              {
+                "cells": [
+                  "Iuvaret2",
+                  "Apeirian2",
+                  "Adipisci2",
+                  "Definiebas2",
+                  "Consequuntur2",
+                  "Phaedrum2",
+                  "edit delete"
+                ]
+              },
+              {
+                "cells": [
+                  "Iuvaret3",
+                  "Apeirian3",
+                  "Adipisci3",
+                  "Definiebas3",
+                  "Consequuntur3",
+                  "Phaedrum3",
+                  "edit delete"
+                ]
+              },
+              {
+                "cells": [
+                  "Iuvaret4",
+                  "Apeirian4",
+                  "Adipisci4",
+                  "Definiebas4",
+                  "Consequuntur4",
+                  "Phaedrum4",
+                  "edit delete"
+                ]
+              },
+              {
+                "cells": [
+                  "Iuvaret5",
+                  "Apeirian5",
+                  "Adipisci5",
+                  "Definiebas5",
+                  "Consequuntur5",
+                  "Phaedrum5",
+                  "edit delete"
+                ]
+              },
+              {
+                "cells": [
+                  "Iuvaret6",
+                  "Apeirian6",
+                  "Adipisci6",
+                  "Definiebas6",
+                  "Consequuntur6",
+                  "Phaedrum6",
+                  "edit delete"
+                ]
+              },
+              {
+                "cells": [
+                  "Iuvaret7",
+                  "Apeirian7",
+                  "Adipisci7",
+                  "Definiebas7",
+                  "Consequuntur7",
+                  "Phaedrum7",
+                  "edit delete"
+                ]
+              },
+              {
+                "cells": [
+                  "Iuvaret8",
+                  "Apeirian8",
+                  "Adipisci8",
+                  "Definiebas8",
+                  "Consequuntur8",
+                  "Phaedrum8",
+                  "edit delete"
+                ]
+              },
+              {
+                "cells": [
+                  "Iuvaret9",
+                  "Apeirian9",
+                  "Adipisci9",
+                  "Definiebas9",
+                  "Consequuntur9",
+                  "Phaedrum9",
+                  "edit delete"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TechExercise"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 842200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationContext.setUp()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Verify table contents.",
+        "description": "",
+        "id": "sample-tests.;verify-table-contents.",
+        "after": [
+          {
+            "result": {
+              "duration": 35863000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationContext.checkErrors()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1217411100,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "launch a browser.",
+            "match": {
+              "location": "TestMapping.launchBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2821437100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "navigate to the address: \u0027https://the-internet.herokuapp.com/challenging_dom\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://the-internet.herokuapp.com/challenging_dom",
+                  "offset": 26
+                }
+              ],
+              "location": "TestMapping.goToUrl(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1155737300,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "click the edit and delete buttons on the table.",
+            "match": {
+              "location": "TestMapping.clickEditDelete()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TechExercise"
+          }
+        ]
+      }
+    ],
+    "name": "Sample Tests.",
+    "description": "",
+    "id": "sample-tests.",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/TechExercise.feature",
+    "tags": []
+  }
+]
